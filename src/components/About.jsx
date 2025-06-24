@@ -112,9 +112,15 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.8, duration: 0.6 }}
             >
-              <button className="mt-8 bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg font-medium transition-colors duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50">
-                Book Your Stay
-              </button>
+              <a
+                href="https://wa.me/911234567890"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="mt-8 bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg font-medium transition-colors duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50">
+                  Book Your Stay
+                </button>
+              </a>
             </motion.div>
           </div>
         </div>
