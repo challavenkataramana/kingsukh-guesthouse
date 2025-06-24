@@ -65,10 +65,15 @@ const LivingRooms = () => {
               <p className="text-lg font-semibold text-blue-600 mb-3">
                 Starting from Rs. 1000/night
               </p>
-
-              <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md text-sm font-medium transition-colors">
-                BOOK NOW
-              </button>
+              <a
+                href="https://wa.me/911234567890"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md text-sm font-medium transition-colors">
+                  BOOK NOW
+                </button>
+              </a>
             </div>
           </motion.div>
 
@@ -96,9 +101,15 @@ const LivingRooms = () => {
               <p className="text-lg font-semibold text-blue-600 mb-3">
                 Starting from Rs. 1500/night
               </p>
-              <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md text-sm font-medium transition-colors">
-                BOOK NOW
-              </button>
+              <a
+                href="https://wa.me/911234567890"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md text-sm font-medium transition-colors">
+                  BOOK NOW
+                </button>
+              </a>
             </div>
           </motion.div>
         </div>

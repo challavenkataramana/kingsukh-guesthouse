@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   const handleBookNow = () => {
     window.open(
-      "https://wa.me/919007062180?text=I%20would%20like%20to%20book%20a%20stay%20at%20Kingsukh%20Guest%20House",
+      "https://wa.me/1234567890?text=I%20would%20like%20to%20book%20a%20stay%20at%20Kingsukh%20Guest%20House",
       "_blank"
     );
   };
@@ -124,7 +124,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="tel:+919007062180"
+                  href="tel:+1234567890"
                   className="hover:text-white transition"
                 >
                   +91 9007062180

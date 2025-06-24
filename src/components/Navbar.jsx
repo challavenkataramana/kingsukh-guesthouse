@@ -63,7 +63,7 @@ const Navbar = () => {
                 <motion.a
                   key={item}
                   href={`#${item.toLowerCase()}`}
-                  className="text-gray-700 hover:bg-blue-200 transition duration-500 font-semibold px-3 py-2 rounded-full relative group"
+                  className="text-gray-700  transition duration-500 font-semibold px-3 py-2 rounded-full relative group"
                   initial={{ opacity: 0, y: -50 }}
                   animate={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
