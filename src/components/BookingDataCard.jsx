@@ -4,7 +4,7 @@ import { FaCalendarCheck, FaSmileBeam } from "react-icons/fa";
 const BookingDataCard = () => {
   return (
     <div className="bg-white rounded-2xl shadow-xl p-8  max-w-4xl mx-4 md:mx-auto my-15 border border-gray-100 overflow-hidden">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-9">
         <div className="flex items-center gap-6 w-full md:w-auto">
           <div className="bg-blue-100 p-5 rounded-full">
             <FaCalendarCheck className="text-blue-600 text-4xl" />
