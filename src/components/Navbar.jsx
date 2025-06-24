@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 md:px-6 lg:px-8 flex justify-between items-center">
           <motion.a
             href="#home"
-            className="text-2xl font-bold text-blue-500 hover:text-blue-600 transition-colors"
+            className="text-2xl font-bold italic text-blue-600 hover:text-blue-600 transition-colors"
             aria-label="Go to homepage"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
