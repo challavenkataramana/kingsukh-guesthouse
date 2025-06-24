@@ -79,7 +79,7 @@ const Navbar = () => {
               href="https://wa.me/911234567890"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-5 py-2.5 rounded-full transition-colors"
+              className="flex items-center gap-2 bg-green-500 hover:bg-green-700 text-white px-5 py-2.5 rounded-full transition-colors"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               initial={{ opacity: 0 }}
