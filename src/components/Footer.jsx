@@ -148,7 +148,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-400">
-          <p>Copyright © 2024 Kingsukh Guest House. All rights reserved.</p>
+          <p>Copyright © 2024 Kingsukh Guest House. All rights reserved. Just for Learning Purpose</p>
         </div>
       </div>
     </footer>

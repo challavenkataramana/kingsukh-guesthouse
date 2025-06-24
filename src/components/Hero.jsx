@@ -15,7 +15,7 @@ const Hero = () => {
 
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 text-white">
         <motion.h1
-          className="text-4xl md:text-6xl font-bold mb-4"
+          className="text-4xl md:text-6xl text-gray-200 font-bold mb-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 1 }}
@@ -23,7 +23,9 @@ const Hero = () => {
           Welcome to{" "}
           <motion.span
             className="
-            text-black-300 
+            text-white
+            md:text-white
+            shawdow-md
             rounded-lg 
             px-2 py-1.5 
             md:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.5),0_2px_4px_-2px_rgba(0,0,0,0.5)]
@@ -32,9 +34,9 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.1, duration: 1.2 }}
           >
-            KingSukh
+            KingSukh Guest House
           </motion.span>{" "}
-          Guest House
+       
         </motion.h1>
 
         <motion.p

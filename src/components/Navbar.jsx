@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 md:px-6 lg:px-8 flex justify-between items-center">
           <motion.a
             href="#home"
-            className="text-2xl font-semibold text-green-600 hover:text-green-700 transition-colors"
+            className="text-2xl font-bold text-blue-500 hover:text-blue-600 transition-colors"
             aria-label="Go to homepage"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -70,7 +70,7 @@ const Navbar = () => {
                   transition={{ delay: index * 0.1 + 0.3, duration: 0.5 }}
                 >
                   {item}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute bottom-0  left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </motion.a>
               ))}
             </div>
