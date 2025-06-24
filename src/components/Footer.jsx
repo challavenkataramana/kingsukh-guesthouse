@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-5">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Kingsukh Guest House</h3>
+            <h3 className="text-2xl font-bold mb-4 md:mt-3">Kingsukh Guest House</h3>
             <p className="text-gray-300 mb-6">
               Discover a world of comfort, luxury, and adventure as you explore
               our curated selection of hotels, making every moment of your
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">QUICK LINKS</h4>
+            <h4 className="text-lg font-semibold mb-4 mt-5 md:mt-3">QUICK LINKS</h4>
             <ul className="space-y-2">
               <li>
                 <a
@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">OUR SERVICES</h4>
+            <h4 className="text-lg font-semibold mb-4 mt-5 md:mt-3">OUR SERVICES</h4>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <FaConciergeBell className="text-blue-400 mt-1 mr-2" />
@@ -105,7 +105,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">CONTACT US</h4>
+            <h4 className="text-lg font-semibold mb-4 mt-5 md:mt-3">CONTACT US</h4>
             <address className="not-italic text-gray-300 space-y-2">
               <p>
                 Beside Barshal Water Tank,
