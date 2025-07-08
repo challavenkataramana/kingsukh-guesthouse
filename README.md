@@ -13,7 +13,7 @@ The goal of this project is to improve the **UI/UX** of the existing King Sukh G
 
 ---
 
-## ✨ Features
+## Features
 
 -  Mobile-first and responsive layout  
 -  Sticky animated navbar with smooth scrolling  
