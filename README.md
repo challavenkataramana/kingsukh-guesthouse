@@ -1,12 +1,62 @@
-# React + Vite
+# 🏨 King Sukh Guest House - Website Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and single-page website redesign for **King Sukh Guest House**, implemented using **React**, **Tailwind CSS**, and **Framer Motion**.
 
-Currently, two official plugins are available:
+> 🔗 Live Site: [Live Site](https://kingsukhgueststay.netlify.app/)
+> 🗂️ Original Site: [Original Website](https://www.kingsukhguesthouse.com/#home)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Objective
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The goal of this project is to improve the **UI/UX** of the existing King Sukh Guest House website, making it more visually appealing, mobile-friendly, and performance-optimized. The new site highlights rooms, amenities, gallery, and contact options with clear navigation and engaging design.
+
+---
+
+## ✨ Features
+
+-  Mobile-first and responsive layout
+-  Sticky animated navbar with smooth scrolling
+-  Mobile hamburger menu with side drawer and overlay
+-  Framer Motion animations for transitions and elements
+-  Consistent left-right spacing across all sections
+-  Booking CTA with WhatsApp integration
+-  Easy navigation with section-based anchors
+
+---
+
+##  Design & UI Process
+
+1. **Analysis of Existing Website**  
+   - Strengths: Informative, basic structure present  
+   - Weaknesses: Outdated design, not responsive, poor spacing, missing modern UI trends
+
+2. **Design Goals**  
+   - Modern aesthetics with Poppins font  
+   - Responsive layout with clean spacing and consistent branding  
+   - One-page smooth navigation (scroll to section)  
+   - Light animations for better engagement
+
+3. **Wireframes and Component Plan**  
+   Sections include:
+   - Navbar
+   - Hero (Welcome section)
+   - About
+   - Rooms
+   - Services
+   - Gallery
+   - Contact
+   - Footer
+
+## Tech Stack
+
+| Technology       | Purpose                               |
+|------------------|---------------------------------------|
+| React.js         | Frontend framework                    |
+| Vite             | Build tool for fast dev server        |
+| Tailwind CSS     | Utility-first CSS framework           |
+| Framer Motion    | Animation library                     |
+| React Icons      | Vector icons for UI elements          |
+
+
+
