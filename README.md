@@ -1,8 +1,8 @@
-# 🏨 King Sukh Guest House - Website Redesign
+# KingSukh Guest House - Website Redesign
 
 A modern, responsive, and single-page website redesign for **King Sukh Guest House**, implemented using **React**, **Tailwind CSS**, and **Framer Motion**.
 
-> 🔗 Live Site: [Live Site](https://kingsukhgueststay.netlify.app/)
+> 🔗 Live Site: [Live Site](https://kingsukhgueststay.netlify.app/)  
 > 🗂️ Original Site: [Original Website](https://www.kingsukhguesthouse.com/#home)
 
 ---
@@ -15,13 +15,13 @@ The goal of this project is to improve the **UI/UX** of the existing King Sukh G
 
 ## ✨ Features
 
--  Mobile-first and responsive layout
--  Sticky animated navbar with smooth scrolling
--  Mobile hamburger menu with side drawer and overlay
--  Framer Motion animations for transitions and elements
--  Consistent left-right spacing across all sections
--  Booking CTA with WhatsApp integration
--  Easy navigation with section-based anchors
+-  Mobile-first and responsive layout  
+-  Sticky animated navbar with smooth scrolling  
+-  Mobile hamburger menu with side drawer and overlay  
+-  Framer Motion animations for transitions and elements  
+-  Consistent left-right spacing across all sections  
+-  Booking CTA with WhatsApp integration  
+-  Easy navigation with section-based anchors  
 
 ---
 
@@ -48,6 +48,8 @@ The goal of this project is to improve the **UI/UX** of the existing King Sukh G
    - Contact
    - Footer
 
+---
+
 ## Tech Stack
 
 | Technology       | Purpose                               |
@@ -58,5 +60,11 @@ The goal of this project is to improve the **UI/UX** of the existing King Sukh G
 | Framer Motion    | Animation library                     |
 | React Icons      | Vector icons for UI elements          |
 
+---
 
+##  Note
+
+ **Disclaimer:** The WhatsApp number used in this project is **intentionally incorrect** and added only for testing and demo purposes during development. Please replace it with the actual business contact number before deploying to production.
+
+---
 
